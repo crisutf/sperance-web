@@ -1,0 +1,214 @@
+{
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "status": "Estado",
+      "news": "Noticias",
+      "downloads": "Descargas",
+      "account": "Account",
+      "discord": "Discord"
+    },
+    "hero": {
+      "badge": "Fase Inicial • Desarrollo Activo",
+      "title": "PROJECT",
+      "titleAccent": "SPERANCE",
+      "subtitle": "Un proyecto que será el sucesor del proyecto Leilos.",
+      "startNow": "Empezar Ahora",
+      "explore": "Explorar Proyecto"
+    },
+    "social": {
+      "title": "COMUNIDAD",
+      "subtitle": "Únete a nuestra comunidad y mantente actualizado",
+      "connect": "Conecta con Nosotros",
+      "githubTitle": "Repositorio GitHub",
+      "githubSubtitle": "Código de Fuente Abierta",
+      "tiktokTitle": "TikTok",
+      "tiktokSubtitle": "Contenido Exclusivo",
+      "discordTitle": "Comunidad Discord",
+      "discordSubtitle": "Soporte y Colaboración",
+      "security": "Seguridad y Privacidad Garantizada"
+    },
+    "footer": {
+      "copyright": "© 2026 Project Sperance",
+      "desc": "Un proyecto de fortnite :)",
+      "legalTitle": "Aviso legal:",
+      "legalDesc": "Este proyecto es independiente y no está afiliado, asociado, autorizado, respaldado ni conectado oficialmente de ninguna manera con Epic Games, Inc.",
+      "madeBy": "Hecho por",
+      "rights": "Todos los derechos reservados",
+      "terms": "Términos",
+      "privacy": "Privacidad",
+      "contact": "Contacto"
+    },
+    "status": {
+      "badge": "Estado del Sistema",
+      "title": "Infraestructura",
+      "titleAccent": "Sperance",
+      "version": "Versión del Launcher",
+      "service": "Servicio de Red",
+      "loading": "Cargando Sistema...",
+      "error": "Error de Sistema",
+      "errorDesc": "No se pudo sincronizar el estado de los servidores."
+    },
+    "news": {
+      "badge": "Actualizaciones",
+      "title": "Últimas",
+      "titleAccent": "Noticias",
+      "loading": "Cargando Noticias...",
+      "viewDetails": "Ver detalles"
+    },
+    "downloads": {
+      "badge": "Versiones Oficiales",
+      "title": "Centro de",
+      "titleAccent": "Descargas",
+      "currentVersion": "Versión Actual",
+      "loading": "Cargando Descargas...",
+      "launcherTitle": "Launcher Sperance",
+      "launcherDesc": "El launcher official de Sperance.",
+      "downloadNow": "Descargar Ahora",
+      "disabled": "Descargas Deshabilitadas",
+      "blocked": "Acceso Bloqueado",
+      "blockedDesc": "Las descargas han sido bloqueadas temporalmente por el administrador. Por favor, inténtalo más tarde.",
+      "error": "Error de Conexión",
+      "errorDesc": "No se pudo obtener la información de descarga. Por favor, verifica tu conexión o inténtalo más tarde.",
+      "retry": "Reintentar",
+      "changelog": "Notas de la Versión"
+    },
+    "about": {
+      "badge": "Nuestra Identidad",
+      "title": "Sobre",
+      "titleAccent": "Sperance",
+      "creator": "Creador",
+      "creatorName": "Crisutf",
+      "creatorRole": "Desarrollador Principal",
+      "creatorDesc": "Creador y desarrollador principal de Project Sperance, con experiencia en múltiples proyectos.",
+      "security": "Seguridad",
+      "securityTitle": "Protección Avanzada",
+      "securityDesc": "La seguridad de nuestro proyecto es nuestra prioridad. Implementamos las mejores prácticas de protección.",
+      "tech": "Tecnología",
+      "techTitle": "Stack Moderno",
+      "techDesc": "Utilizamos tecnologías de última generación para garantizar el mejor rendimiento.",
+      "versionLabel": "Versión que se usara",
+      "missionTitle": "Nuestra Misión",
+      "missionDesc": "Sperance existe para que la comunidad disfrute :)"
+    },
+    "onboarding": {
+      "step1Title": "Crea tu Cuenta",
+      "step1Desc": "Únete a la comunidad de Sperance. Configura tu perfil en segundos para empezar tu viaje.",
+      "step1Action": "Ir al Registro",
+      "step2Title": "Descarga el Launcher",
+      "step2Desc": "Obtén la última versión de nuestro software optimizado para una experiencia premium.",
+      "step2Action": "Ver Descargas",
+      "step3Title": "¡Disfruta de Sperance!",
+      "step3Desc": "Gracias por elegirnos. Todo está listo para que explores lo que hemos construido para ti.",
+      "step3Action": "Volver al Inicio",
+      "nextIn": "Siguiente paso en",
+      "completed": "Proceso Completado con Éxito"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "status": "Status",
+      "news": "News",
+      "downloads": "Downloads",
+      "account": "Account",
+      "discord": "Discord"
+    },
+    "hero": {
+      "badge": "Initial Phase • Active Development",
+      "title": "PROJECT",
+      "titleAccent": "SPERANCE",
+      "subtitle": "A project that will be the successor of the Leilos project.",
+      "startNow": "Start Now",
+      "explore": "Explore Project"
+    },
+    "social": {
+      "title": "COMMUNITY",
+      "subtitle": "Join our community and stay updated",
+      "connect": "Connect with Us",
+      "githubTitle": "GitHub Repository",
+      "githubSubtitle": "Open Source Code",
+      "tiktokTitle": "TikTok",
+      "tiktokSubtitle": "Exclusive Content",
+      "discordTitle": "Discord Community",
+      "discordSubtitle": "Support and Collaboration",
+      "security": "Security and Privacy Guaranteed"
+    },
+    "footer": {
+      "copyright": "© 2026 Project Sperance",
+      "desc": "A Fortnite project :)",
+      "legalTitle": "Legal notice:",
+      "legalDesc": "This project is independent and is not affiliated, associated, authorized, endorsed, or officially connected in any way with Epic Games, Inc.",
+      "madeBy": "Made by",
+      "rights": "All rights reserved",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "contact": "Contact"
+    },
+    "status": {
+      "badge": "System Status",
+      "title": "Infrastructure",
+      "titleAccent": "Sperance",
+      "version": "Launcher Version",
+      "service": "Network Service",
+      "loading": "Loading System...",
+      "error": "System Error",
+      "errorDesc": "Could not synchronize server status."
+    },
+    "news": {
+      "badge": "Updates",
+      "title": "Latest",
+      "titleAccent": "News",
+      "loading": "Loading News...",
+      "viewDetails": "View details"
+    },
+    "downloads": {
+      "badge": "Official Versions",
+      "title": "Downloads",
+      "titleAccent": "Center",
+      "currentVersion": "Current Version",
+      "loading": "Loading Downloads...",
+      "launcherTitle": "Sperance Launcher",
+      "launcherDesc": "The official Sperance launcher.",
+      "downloadNow": "Download Now",
+      "disabled": "Downloads Disabled",
+      "blocked": "Access Blocked",
+      "blockedDesc": "Downloads have been temporarily blocked by the administrator. Please try again later.",
+      "error": "Connection Error",
+      "errorDesc": "Could not retrieve download information. Please check your connection or try again later.",
+      "retry": "Retry",
+      "changelog": "Version Notes"
+    },
+    "about": {
+      "badge": "Our Identity",
+      "title": "About",
+      "titleAccent": "Sperance",
+      "creator": "Creator",
+      "creatorName": "Crisutf",
+      "creatorRole": "Lead Developer",
+      "creatorDesc": "Creator and lead developer of Project Sperance, with experience in multiple projects.",
+      "security": "Security",
+      "securityTitle": "Advanced Protection",
+      "securityDesc": "The security of our project is our priority. We implement the best protection practices.",
+      "tech": "Technology",
+      "techTitle": "Modern Stack",
+      "techDesc": "We use cutting-edge technologies to guarantee the best performance.",
+      "versionLabel": "Version to be used",
+      "missionTitle": "Our Mission",
+      "missionDesc": "Sperance exists so the community can enjoy :)"
+    },
+    "onboarding": {
+      "step1Title": "Create your Account",
+      "step1Desc": "Join the Sperance community. Set up your profile in seconds to start your journey.",
+      "step1Action": "Go to Register",
+      "step2Title": "Download the Launcher",
+      "step2Desc": "Get the latest version of our software optimized for a premium experience.",
+      "step2Action": "View Downloads",
+      "step3Title": "Enjoy Sperance!",
+      "step3Desc": "Thank you for choosing us. Everything is ready for you to explore what we have built for you.",
+      "step3Action": "Back to Home",
+      "nextIn": "Next step in",
+      "completed": "Process Completed Successfully"
+    }
+  }
+}
