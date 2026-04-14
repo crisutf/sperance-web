@@ -15,14 +15,14 @@ const Hero = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none mix-blend-overlay" />
 
-      <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 text-center relative z-10">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-10 text-xs font-bold tracking-[0.2em] uppercase text-accent-glow glass rounded-2xl border-accent/20 hover:border-accent/40 transition-all cursor-default group"
+          className="inline-flex items-center gap-2 px-6 py-2 md:py-2.5 mb-8 md:mb-10 text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase text-accent-glow glass rounded-2xl border-accent/20 hover:border-accent/40 transition-all cursor-default group"
         >
-          <Sparkles className="w-4 h-4 transition-transform group-hover:scale-125 group-hover:rotate-12" />
+          <Sparkles className="w-3 h-3 md:w-4 md:h-4 transition-transform group-hover:scale-125 group-hover:rotate-12" />
           <span>{t('hero.badge')}</span>
         </motion.div>
 
@@ -30,17 +30,17 @@ const Hero = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-7xl md:text-[9rem] font-black tracking-tight mb-10 leading-[0.9]"
+          className="text-5xl sm:text-7xl md:text-[9rem] font-black tracking-tighter mb-8 md:mb-10 leading-[0.9] italic"
         >
           {t('hero.title')}<br />
-          <span className="text-gradient italic text-glow drop-shadow-[0_0_30px_rgba(139,92,246,0.3)] px-10 inline-block">{t('hero.titleAccent')}</span>
+          <span className="text-gradient text-glow drop-shadow-[0_0_30px_rgba(139,92,246,0.3)] px-4 md:px-10 inline-block">{t('hero.titleAccent')}</span>
         </motion.h1>
 
         <motion.p
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="max-w-3xl mx-auto text-xl md:text-2xl text-white/50 mb-16 font-medium leading-relaxed"
+          className="max-w-3xl mx-auto text-base md:text-2xl text-white/50 mb-12 md:mb-16 font-medium leading-relaxed px-2"
         >
           {t('hero.subtitle')}
         </motion.p>
@@ -49,17 +49,17 @@ const Hero = () => {
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 px-4 md:px-0"
         >
           <Link
             to="/start"
-            className="w-full sm:w-auto px-10 py-5 text-lg font-black text-white bg-accent rounded-3xl glow-button flex items-center justify-center gap-3 border border-accent/50 group"
+            className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 text-base md:text-lg font-black text-white bg-accent rounded-2xl md:rounded-3xl glow-button flex items-center justify-center gap-3 border border-accent/50 group"
           >
             {t('hero.startNow')}
-            <ChevronRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
+            <ChevronRight className="w-5 h-5 md:w-6 md:h-6 transition-transform group-hover:translate-x-1" />
           </Link>
-          <Link to="/about" className="w-full sm:w-auto px-10 py-5 text-lg font-black text-white glass hover:bg-white/10 transition-all duration-300 rounded-3xl flex items-center justify-center gap-3 group">
-            <Globe className="w-6 h-6 opacity-60 group-hover:rotate-12 transition-transform" />
+          <Link to="/about" className="w-full sm:w-auto px-8 py-4 md:px-10 md:py-5 text-base md:text-lg font-black text-white glass hover:bg-white/10 transition-all duration-300 rounded-2xl md:rounded-3xl flex items-center justify-center gap-3 group">
+            <Globe className="w-5 h-5 md:w-6 md:h-6 opacity-60 group-hover:rotate-12 transition-transform" />
             {t('hero.explore')}
           </Link>
         </motion.div>

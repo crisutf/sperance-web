@@ -47,35 +47,35 @@ const ProjectStatus = () => {
   }
 
   return (
-    <section id="status" className="py-32 bg-[#050506] relative">
-      <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-12">
+    <section id="status" className="py-16 md:py-32 bg-[#050506] relative">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 relative z-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-24 gap-8 md:gap-12">
           <div className="max-w-2xl">
             <motion.div 
               initial={{ x: -20, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
-              className="inline-flex items-center gap-3 px-4 py-1.5 mb-6 text-xs font-black tracking-widest uppercase text-accent bg-accent/10 border border-accent/20 rounded-full"
+              className="inline-flex items-center gap-3 px-4 py-1.5 mb-4 md:mb-6 text-[10px] md:text-xs font-black tracking-widest uppercase text-accent bg-accent/10 border border-accent/20 rounded-full"
             >
-              <Activity className="w-4 h-4" />
+              <Activity className="w-3 h-3 md:w-4 md:h-4" />
               <span>{t('status.badge')}</span>
             </motion.div>
             <motion.h2 
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              className="text-5xl md:text-7xl font-black mb-8 leading-[1.1]"
+              className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 md:mb-8 leading-[1.1] tracking-tighter italic"
             >
-              {t('status.title')} <span className="text-gradient">{t('status.titleAccent')}</span>
+              {t('status.title')} <span className="text-gradient inline-block">{t('status.titleAccent')}</span>
             </motion.h2>
-            <div className="flex items-center gap-3 text-white/30 font-bold uppercase tracking-widest text-sm">
-              <Hash className="w-4 h-4" />
+            <div className="flex items-center gap-3 text-white/30 font-black uppercase tracking-[0.2em] text-[10px] md:text-sm">
+              <Hash className="w-3 h-3 md:w-4 md:h-4" />
               {t('status.version')}: <span className="text-accent">{statusData?.version || "N/A"}</span>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {statusData?.services.map((service, index) => (
             <motion.div
               key={index}
@@ -83,34 +83,34 @@ const ProjectStatus = () => {
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bento-card group flex items-center justify-between p-8"
+              className="bento-card group flex items-center justify-between p-6 md:p-8"
             >
-              <div className="flex items-center gap-6">
-                <div className={`p-4 rounded-2xl border transition-all duration-500 ${
+              <div className="flex items-center gap-4 md:gap-6">
+                <div className={`p-3 md:p-4 rounded-xl md:rounded-2xl border transition-all duration-500 ${
                   service.status === 'UP' 
                     ? 'bg-green-500/10 border-green-500/20 text-green-500' 
                     : 'bg-red-500/10 border-red-500/20 text-red-500'
                 }`}>
-                  {service.name === 'Web' ? <Globe className="w-6 h-6" /> : 
-                   service.name === 'CDN' ? <Server className="w-6 h-6" /> :
-                   service.name === 'Launcher' ? <Cpu className="w-6 h-6" /> :
-                   <Shield className="w-6 h-6" />}
+                  {service.name === 'Web' ? <Globe className="w-5 h-5 md:w-6 md:h-6" /> : 
+                   service.name === 'CDN' ? <Server className="w-5 h-5 md:w-6 md:h-6" /> :
+                   service.name === 'Launcher' ? <Cpu className="w-5 h-5 md:w-6 md:h-6" /> :
+                   <Shield className="w-5 h-5 md:w-6 md:h-6" />}
                 </div>
                 <div>
-                  <h3 className="text-xl font-black text-white group-hover:text-accent transition-colors">{service.name}</h3>
-                  <p className="text-xs font-bold uppercase tracking-widest text-white/30">{t('status.service')}</p>
+                  <h3 className="text-lg md:text-xl font-black text-white group-hover:text-accent transition-colors">{service.name}</h3>
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-white/30">{t('status.service')}</p>
                 </div>
               </div>
               
-              <div className="flex flex-col items-end gap-1">
-                <span className={`text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full border ${
+              <div className="flex flex-col items-end gap-1.5">
+                <span className={`text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full border ${
                   service.status === 'UP' 
                     ? 'bg-green-500/10 border-green-500/20 text-green-400' 
                     : 'bg-red-500/10 border-red-500/20 text-red-400'
                 }`}>
                   {service.status}
                 </span>
-                <div className={`w-2 h-2 rounded-full animate-pulse ${
+                <div className={`w-1.5 h-1.5 rounded-full animate-pulse ${
                   service.status === 'UP' ? 'bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.5)]' : 'bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]'
                 }`} />
               </div>
