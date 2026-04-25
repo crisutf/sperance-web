@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-8 max-w-sm">
             <div className="flex items-center gap-4 group">
               <div className="p-2 rounded-xl border border-white/10 group-hover:border-accent/40 transition-colors duration-500">
-            <img src="https://cdn.crisu.qzz.io/sperance/media/logo_background.png" alt="Sperance Logo" className="relative w-12 h-12 rounded-xl" />
+            <img src="https://cdn.crisu.qzz.io/sperance/assetes/logo/svg/Sperance_Normal.svg" alt="Sperance Logo" className="relative w-12 h-12 rounded-xl" />
           </div>
               <span className="text-xl font-black text-white tracking-tighter">PROJECT SPERANCE</span>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-accent/80">Soporte</h4>
               <ul className="space-y-4 text-sm font-bold text-white/30">
                 <li><Link to="/about" className="hover:text-white transition-colors flex items-center gap-2"><Info className="w-3 h-3" /> {t('about.titleAccent')}</Link></li>
-                <li><a href="https://github.com/Sperancefn" className="hover:text-white transition-colors">GitHub</a></li>
+                <li><a href="https://github.com/Sperancetf" className="hover:text-white transition-colors">GitHub</a></li>
                 <li><a href="https://mini.crisu.qzz.io/?d=sperance_discord" className="hover:text-white transition-colors">Discord</a></li>
               </ul>
             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-8">
-            <a href="https://github.com/Sperancefn" target="_blank" rel="noreferrer" className="text-white/10 hover:text-white transition-all transform hover:scale-110"><Github className="w-5 h-5" /></a>
+            <a href="https://github.com/Sperancetf" target="_blank" rel="noreferrer" className="text-white/10 hover:text-white transition-all transform hover:scale-110"><Github className="w-5 h-5" /></a>
             <a href="https://www.tiktok.com/@sperancefn" target="_blank" rel="noreferrer" className="text-white/10 hover:text-white transition-all transform hover:scale-110"><Video className="w-5 h-5" /></a>
             <a href="https://mini.crisu.qzz.io/?d=sperance_discord" target="_blank" rel="noreferrer" className="text-white/10 hover:text-white transition-all transform hover:scale-110"><MessageSquare className="w-5 h-5" /></a>
           </div>

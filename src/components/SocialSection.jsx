@@ -34,7 +34,7 @@ const SocialSection = () => {
           
           <div className="flex flex-col gap-4 md:gap-6">
             <a 
-              href="https://github.com/Sperancefn" 
+              href="https://github.com/Sperancetf" 
               target="_blank" 
               rel="noreferrer"
               className="flex items-center justify-between p-6 md:p-8 glass-dark rounded-2xl md:rounded-[2rem] hover:bg-white/[0.05] hover:border-white/10 transition-all duration-500 group relative overflow-hidden"
@@ -113,7 +113,7 @@ const SocialSection = () => {
             <div className="absolute -inset-4 bg-accent/10 rounded-[2.5rem] md:rounded-[3rem] blur-2xl opacity-40 group-hover:opacity-60 transition-opacity pointer-events-none" />
             <div className="relative glass-dark p-1.5 md:p-2 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-[0_0_80px_rgba(0,0,0,0.5)] border border-white/5 group-hover:border-accent/20 transition-all duration-500">
               <iframe 
-                src="https://discord.com/widget?id=1493341247459561602&theme=dark" 
+                src="https://discord.com/widget?id=1497569489330376777&theme=dark" 
                 width="100%" 
                 height="500" 
                 allowtransparency="true" 

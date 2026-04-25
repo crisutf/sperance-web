@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-2 md:gap-4 group">
               <div className="relative">
                 <div className="absolute inset-0 bg-accent blur-xl opacity-20 group-hover:opacity-40 transition-opacity rounded-full" />
-                <img src="https://cdn.crisu.qzz.io/sperance/media/logo_background.png" alt="Sperance Logo" className="relative w-10 h-10 md:w-12 md:h-12 rounded-lg md:rounded-xl transition-transform group-hover:scale-110 duration-500" />
+                <img src="https://cdn.crisu.qzz.io/sperance/assetes/logo/svg/Sperance_Favicon_NoSombra.svg" alt="Sperance Logo" className="relative w-10 h-10 md:w-12 md:h-12 rounded-lg md:rounded-xl transition-transform group-hover:scale-110 duration-500" />
               </div>
               <div className="flex flex-col">
                 <span className="text-base md:text-xl font-bold tracking-tight text-white leading-tight">Project Sperance</span>
@@ -68,7 +68,7 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="w-px h-6 bg-white/10" />
-            <a href="https://github.com/Sperancefn" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-all hover:scale-110">
+            <a href="https://github.com/Sperancetf" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-all hover:scale-110">
               <Github className="w-6 h-6" />
             </a>
           </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
                   {t('nav.account')}
                 </a>
                 <div className="flex items-center justify-center gap-6 pt-4">
-                  <a href="https://github.com/Sperancefn" target="_blank" rel="noreferrer" className="p-3 bg-white/5 rounded-full text-white/40 hover:text-white transition-all">
+                  <a href="https://github.com/Sperancetf" target="_blank" rel="noreferrer" className="p-3 bg-white/5 rounded-full text-white/40 hover:text-white transition-all">
                     <Github className="w-6 h-6" />
                   </a>
                 </div>
